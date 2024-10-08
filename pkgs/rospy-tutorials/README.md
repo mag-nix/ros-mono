@@ -1,0 +1,1 @@
+This is a copy of Open Robotics tutorial for demo purpose of a mixed ros and nix environment in one repo
