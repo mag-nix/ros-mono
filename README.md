@@ -11,3 +11,23 @@ graph BT;
     Nix-->Noetic;
     Noetic-->Local;
 ```
+
+## Usage
+
+### Terminal 1
+
+``` bash
+nix develop --command roscore
+```
+
+### Terminal 2
+
+``` bash
+nix develop --command "rosrun rospy_tutorials talker"
+```
+
+### Terminal 3
+
+``` bash
+nix develop --command "rosrun rospy_tutorials listener"
+```
