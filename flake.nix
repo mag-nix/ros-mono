@@ -11,7 +11,6 @@
           overlays = [
             nix-ros-overlay.overlays.default
             # This overlay adds the packages of this repo
-            # Since it is in second position it also can overwrite existing noetic packages
             (import ./pkgs/default.nix)
           ];
         };
