@@ -27,11 +27,11 @@ nix develop --command roscore
 ### Terminal 2
 
 ``` bash
-nix develop --command "rosrun rospy_tutorials talker"
+nix develop --command rosrun rospy_tutorials talker
 ```
 
 ### Terminal 3
 
 ``` bash
-nix develop --command "rosrun rospy_tutorials listener"
+nix develop --command rosrun rospy_tutorials listener
 ```
